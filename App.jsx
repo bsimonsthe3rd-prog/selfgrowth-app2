@@ -15,7 +15,7 @@ export default function App() {
   const [tab, setTab] = useState('checklist')
 
   return (
-    <div style={{ minHeight: '100vh', minHeight: '100dvh', background: 'var(--cream)', paddingBottom: 80 }}>
+    <div style={{ minHeight: '100dvh', background: 'var(--cream)', paddingBottom: 80 }}>
       {/* Header */}
       <header style={{
         borderBottom: '1px solid var(--border)',
